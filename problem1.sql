@@ -1,0 +1,1 @@
+create table post(id serial primary key,post varchar(255),user_fk int ,foreign key(user_fk) REFERENCES site_user(id));
